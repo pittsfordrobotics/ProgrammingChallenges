@@ -21,9 +21,8 @@ public class Variables {
         // double g = 6;
         // String
         // Add the ints and print the result
-        // System.out.println()
-
         // Multiply an int and a double and print the result
+        // Divide a double by the other double and print the result
 
         ///////////////////////////
 
