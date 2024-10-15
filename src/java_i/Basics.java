@@ -7,7 +7,7 @@ public class Basics {
 
 
     public static void main(String[] args) {
-        /* This is called the main method. You don't need to know what the above line of code means,
+        /* This is called the main method. You       don't need to know what the above line of code means,
            but you do need to know that this is where the program starts running.
          */
 
