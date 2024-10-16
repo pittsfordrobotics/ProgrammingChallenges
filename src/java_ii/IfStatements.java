@@ -1,5 +1,7 @@
 package java_ii;
 
+import javax.lang.model.util.ElementScanner14;
+
 public class IfStatements {
     public static void main(String[] args) {
         // Remember booleans? THEY'RE BACK
@@ -66,9 +68,20 @@ public class IfStatements {
         // EXERCISES
 
         // 1. Declare an int variable and write an if statement that checks if it's even.
-
+        int a = 10;
+        boolean aEven = true;
+        if(a % 2 == 0) {
+            aEven = true;
+        }
         // 2. Write an if statement that checks if the variable's odd. (You can use the same variable)
-
+        if(a % 2 != 0) {
+            aEven = false;
+        }
         // 3. Actually you know what? Just write anything you want here. (With an if statement; we're not that generous)
+        if(aEven == true) {
+            System.out.println("The Variable a is even");
+        } else if (aEven == false) {
+            System.out.println("The Variable a is false");
+        }
+        }
     }
-}
