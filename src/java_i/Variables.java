@@ -31,5 +31,19 @@ public class Variables {
         ///////////////////////////
 
         ///////////////////////////
+        int number = 12;
+        double decimal = 12.5;
+        boolean brainrot = true;
+        System.out.println(number);
+        System.out.println(decimal);
+        System.out.println(brainrot);
+        int x = 15;
+        int y = 12;
+        double z = 2.5;
+        double w = 5.3;
+        System.out.println(x+y);
+        System.out.println(y*w);
+        System.out.println(w/z);
+
     }
 }
