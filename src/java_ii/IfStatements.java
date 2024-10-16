@@ -66,9 +66,17 @@ public class IfStatements {
         // EXERCISES
 
         // 1. Declare an int variable and write an if statement that checks if it's even.
-
+        int n = 4;
+        if (n%2 == 0){
+            System.out.println("EVENNNN");
+        }else{
+            System.out.println("ODD :(");
+        }
         // 2. Write an if statement that checks if the variable's odd. (You can use the same variable)
-
+        if (n%2 == 1){
+            System.out.println("but it's okay to be odd idk");
+        }
         // 3. Actually you know what? Just write anything you want here. (With an if statement; we're not that generous)
+        if (pi == 10) System.out.println("found the engineer");
     }
 }
